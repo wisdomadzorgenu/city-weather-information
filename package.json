@@ -2,9 +2,10 @@
   "name": "invisible-tech-test",
   "version": "1.0.0",
   "description": "invisible tech test",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+      "test": "mocha",
+      "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/wisdomadzorgenu/invisible-tech-test/issues"
   },
-  "homepage": "https://github.com/wisdomadzorgenu/invisible-tech-test#readme"
+  "homepage": "https://github.com/wisdomadzorgenu/invisible-tech-test#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.2"
+  }
 }
