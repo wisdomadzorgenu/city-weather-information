@@ -7,6 +7,12 @@ let locationInfo = [
    {location:'Moscow',postalCode:''},
    {location:'Los Angeles',postalCode:''},
    {location:'Tokyo',postalCode:''},
+   {location:'London',postalCode:''},
+   {location:'Nairobi',postalCode:''},
+   {location:'São Paulo',postalCode:''},
+   {location:'Pluto',postalCode:''},
+   {location:'Accra',postalCode:''},
+   {location:'Kuala Lumpur',postalCode:''}
 ]
 
 //bulkPromise for tracking all promise executions
